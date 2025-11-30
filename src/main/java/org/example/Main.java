@@ -1,0 +1,21 @@
+package org.example;
+
+import com.google.gson.Gson;
+
+public class Main {
+    public static void main(String[] args) {
+        Person p = new Person("YourName", "YourLastName");
+        Gson gson = new Gson();
+        System.out.println(gson.toJson(p));
+    }
+}
+
+class Person {
+    private String name;
+    private String lastName;
+
+    public Person(String name, String lastName) {
+        this.name = name;
+        this.lastName = lastName;
+    }
+}
