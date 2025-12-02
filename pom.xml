@@ -18,7 +18,7 @@
     </dependencies>
 
     <build>
-        <finalName>oleksandr</finalName>
+        <finalName>myname</finalName>
 
         <plugins>
             <!-- FatJar -->
